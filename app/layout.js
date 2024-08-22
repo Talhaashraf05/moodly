@@ -26,7 +26,18 @@ export default function RootLayout({ children }) {
   );
   const footer = (
     <footer className="p-4 sm:p-8 grid place-items-center">
-      <p className={'text-indigo-500 ' + fugaz.className}>Created with ❤️</p>
+      <p className={'text-indigo-500 ' + fugaz.className}>
+        Created by{' '}
+        <span>
+          <a
+            href="https://www.linkedin.com/in/talhaashraf45/"
+            className="textGradient"
+          >
+            Talha
+          </a>
+        </span>{' '}
+        with ❤️
+      </p>
     </footer>
   );
 
