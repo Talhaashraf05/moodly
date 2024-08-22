@@ -16,6 +16,7 @@ export default function CallToAction() {
       </div>
     );
   }
+
   return (
     <div className="grid grid-cols-2 gap-4 w-fit mx-auto">
       <Link href="/dashboard">
